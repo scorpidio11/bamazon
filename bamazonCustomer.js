@@ -142,14 +142,6 @@ function updateUnits(itemID, NumUnits, stock_quantity){
                 throw err;
             }
 
-
-
-            // var id = parseInt(results.id);
-            // var totalPrice = parseFloat((parseFloat(results[id].price.toFixed(2)) * NumUnits));
-            
-           
-           // console.log(itemID + " products updated!\n");
-            // console.log("Your order Total :" + totalPrice .bold);
         }
     )
 }
