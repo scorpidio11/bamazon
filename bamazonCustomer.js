@@ -49,7 +49,7 @@ function start(res) {
             // type is limited to "input" or other specific commands (input, confirm, list, rawlist, etc..).  Name field is freeform.
             type: "list",
             name: "selectItemID",
-            message: "What is the Item ID of the product you would like to buy?",
+            message: "\n What is the Item ID of the product you would like to buy?",
             choices: function () {
                 var choiceArrayItemId = [];
                 for (var i = 0; i < res.length; i++) {
